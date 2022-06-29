@@ -1,0 +1,60 @@
+/* TABLE OF CONTENTS */
+/* ------------------
+1. General
+2. Navbar
+3. Banner  
+4. Best Deals
+5. Donate 
+6. Footer
+-------------------- */
+
+
+
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+/* Background Color */
+--secondary-color: #f77949;
+--bg-blue: #37418e;
+--bg-white: #fff;
+--bg-dark-blue: #292b70;
+--bg-gray: #ecf0f9;
+
+/* Text Color */
+--text-black: #1f1f1f;
+--text-blue: #1f294c;
+--text-grey: #6d6e7b;
+--text-white: #fff;
+
+/* Fonts */
+--primary-font: 'open sans condensed', sans-serif;
+--secondary-font: 'open sans', sans-serif;
+
+}
+body{
+    font-family: var(--secondary-font);
+    background-image: url(../images/page-background.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    overflow-x: hidden;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: var(--bg-gray);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--secondary-color);
+}
